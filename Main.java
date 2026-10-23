@@ -15,6 +15,11 @@ public class Main {
         System.out.println("Looking for file at: " + file.getAbsolutePath());
         manager.loadStudentsFromFile(file.getAbsolutePath());
         manager.displayAllStudents();
+        FileWriter Writer= new FileWriter("student.txt");
+        Writer.write("THIS IS ONLINE SESSION");
+        Writer.write("THANK YOU FOR JOINING");
+        Writer.write("MY NAME IS Esther");
+
 
         System.out.println("\n--- ADD NEW STUDENT ---");
         
